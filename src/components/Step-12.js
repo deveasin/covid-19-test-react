@@ -11,9 +11,9 @@ const Step_12 = (props) => {
     }
     return (
         <div className="Step_12 text-center">
-            <h1>আপনি কি গত ১৪ দিনে কোনো কোনো ধর্মীয় উপাসনালয় ( মসজিদ , মন্দির , গির্জা ইত্যাদি ) অথবা জনসমাগমপূর্ণ অনুষ্ঠান ( বিয়ে , জন্মদিন , সেমিনার , মিটিং , মিছিল ইত্যাদি ) - এ অংশগ্রহণ করেছেন?</h1>
-            <button onClick={nextStep} className="btn btn-primary mr-1" data-value="false">না</button>
-            <button onClick={nextStep} className="btn btn-primary" data-value="true">হ্যাঁ</button>
+            <h1 className="mb-5">আপনি কি গত ১৪ দিনে কোনো কোনো ধর্মীয় উপাসনালয় ( মসজিদ , মন্দির , গির্জা ইত্যাদি ) অথবা জনসমাগমপূর্ণ অনুষ্ঠান ( বিয়ে , জন্মদিন , সেমিনার , মিটিং , মিছিল ইত্যাদি ) - এ অংশগ্রহণ করেছেন?</h1>
+            <button onClick={nextStep} className="btn btn-primary mr-1 btn-lg" data-value="false">না</button>
+            <button onClick={nextStep} className="btn btn-primary btn-lg" data-value="true">হ্যাঁ</button>
         </div>
     )
 }

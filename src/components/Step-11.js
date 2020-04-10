@@ -11,9 +11,9 @@ const Step_11 = (props) => {
     }
     return (
         <div className="Step_11 text-center">
-            <h1>আপনি কি গত ১৪ দিনে বাস , ট্রেন , লঞ্চ অথবা কোনো গণপরিবহনে যাতায়াত করেছেন?</h1>
-            <button onClick={nextStep} className="btn btn-primary mr-1" data-value="false">না</button>
-            <button onClick={nextStep} className="btn btn-primary" data-value="true">হ্যাঁ</button>
+            <h1 className="mb-5">আপনি কি গত ১৪ দিনে বাস , ট্রেন , লঞ্চ অথবা কোনো গণপরিবহনে যাতায়াত করেছেন?</h1>
+            <button onClick={nextStep} className="btn btn-primary mr-1 btn-lg" data-value="false">না</button>
+            <button onClick={nextStep} className="btn btn-primary btn-lg" data-value="true">হ্যাঁ</button>
         </div>
     )
 }

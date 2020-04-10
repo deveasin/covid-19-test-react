@@ -14,6 +14,7 @@ import Step_11 from './components/Step-11';
 import Step_12 from './components/Step-12';
 import Step_13 from './components/Step-13';
 import Step_14 from './components/Step-14';
+import Progress from './components/Progress';
 
 function App() {
 
@@ -71,7 +72,13 @@ function App() {
   return (
       <div className="App">
         <div className="container p-5 mt-5">
-          { steps.length > currentStep ? steps[currentStep].component({setCurrentStep, currentStep, result, setResult}) : <Output result={result} />}
+          
+          { steps.length > currentStep ? 
+            <>
+              <Progress currentStep={currentStep} steps={steps} setCurrentStep={setCurrentStep} setResult={setResult} result={result}/>
+              {steps[currentStep].component({setCurrentStep, currentStep, result, setResult}) }
+            </>
+          : <Output result={result} />}
         </div>
       </div>
   );

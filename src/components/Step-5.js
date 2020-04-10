@@ -11,9 +11,9 @@ const Step_5 = (props) => {
     }
     return (
         <div className="Step_5 text-center">
-            <h1>আপনার কি শ্বাসকষ্ট আছে বা শ্বাস নিতে বা ফেলতে কষ্ট হচ্ছে?</h1>
-            <button onClick={nextStep} className="btn btn-primary mr-1" data-value="false">না</button>
-            <button onClick={nextStep} className="btn btn-primary" data-value="true">হ্যাঁ</button>
+            <h1 className="mb-5">আপনার কি শ্বাসকষ্ট আছে বা শ্বাস নিতে বা ফেলতে কষ্ট হচ্ছে?</h1>
+            <button onClick={nextStep} className="btn btn-primary mr-1 btn-lg" data-value="false">না</button>
+            <button onClick={nextStep} className="btn btn-primary btn-lg" data-value="true">হ্যাঁ</button>
         </div>
     )
 }

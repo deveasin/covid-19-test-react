@@ -11,9 +11,9 @@ const Step_10 = (props) => {
     }
     return (
         <div className="Step_10 text-center">
-            <h1>আপনার কি অন্য কোন অসুখে ভুগছেন (যেমন : ডায়াবেটিস, এজমা বা হাঁপানি , দীর্ঘমেয়াদি শ্বাসকষ্টের রোগ বা সিওপিডি, কিডনি রোগ, ক্যান্সার বা ক্যান্সারের জন্য কোন চিকিৎসা নিচ্ছেন?</h1>
-            <button onClick={nextStep} className="btn btn-primary mr-1" data-value="false">না</button>
-            <button onClick={nextStep} className="btn btn-primary" data-value="true">হ্যাঁ</button>
+            <h1 className="mb-5">আপনার কি অন্য কোন অসুখে ভুগছেন (যেমন : ডায়াবেটিস, এজমা বা হাঁপানি , দীর্ঘমেয়াদি শ্বাসকষ্টের রোগ বা সিওপিডি, কিডনি রোগ, ক্যান্সার বা ক্যান্সারের জন্য কোন চিকিৎসা নিচ্ছেন?</h1>
+            <button onClick={nextStep} className="btn btn-primary mr-1 btn-lg" data-value="false">না</button>
+            <button onClick={nextStep} className="btn btn-primary btn-lg" data-value="true">হ্যাঁ</button>
         </div>
     )
 }

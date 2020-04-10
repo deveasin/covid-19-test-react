@@ -13,9 +13,9 @@ const Step_2 = (props) => {
 
     return (
         <div className="Step_2 text-center">
-            <h1>অনুগ্রহ করে আপনার বয়স উল্লেখ করুন</h1>
+            <h1 className="mb-5">অনুগ্রহ করে আপনার বয়স উল্লেখ করুন</h1>
             <input ref={inputEl} style={{maxWidth: '100px', margin: '0 auto'}} type="number" className="form-control" /> 
-            <button onClick={nextStep} className="btn btn-primary mt-4">পরবর্তী</button>
+            <button onClick={nextStep} className="btn btn-primary mt-4 btn-lg">পরবর্তী</button>
         </div>
     )
 }

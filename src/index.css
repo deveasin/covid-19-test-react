@@ -14,3 +14,15 @@ code {
 .App{
   text-align: center;
 }
+.my-progress{
+  position: relative;
+}
+.custom-icon {
+    position: absolute;
+    left: -29px;
+    bottom: -1px;
+}
+.custom-icon.next-icon{
+    left: inherit;
+    right: -22px;
+}
