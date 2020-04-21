@@ -26,3 +26,31 @@ code {
     left: inherit;
     right: -22px;
 }
+.update_24 {
+  margin-bottom: 100px;
+}
+.update_24 .card {
+  height: 100%;
+  background-color: #f7941e;
+  color: #fff;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0,0,0, .1);
+  padding: 0 4px;
+}
+.update_24 .card-title{
+  margin: 0;
+}
+.update_24 .card-text {
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0;
+}
+.update_24 .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

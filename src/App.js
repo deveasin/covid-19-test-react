@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Update24 from './components/Update24';
 import Output from './components/Output';
 import Step_1 from './components/Step-1';
 import Step_2 from './components/Step-2';
@@ -72,6 +73,8 @@ function App() {
   return (
       <div className="App">
         <div className="container p-5 mt-5">
+
+          <Update24 />
           
           { steps.length > currentStep ? 
             <>
